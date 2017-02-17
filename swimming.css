@@ -1,0 +1,36 @@
+
+.country { color: #930; font-size: 10px; font-family: arial, helvetica, sans-serif; text-decoration: none; background-color: white }
+.country a { color: #930; font-size: 10px; font-family: arial, helvetica, sans-serif; text-decoration: none; background-color: white }
+.country a:hover { color: #030; font-size: 10px; font-family: arial, helvetica, sans-serif; text-decoration: underline; background-color: white }
+.country a:link { color: #930; font-size: 10px; font-family: arial, helvetica, sans-serif; text-decoration: none; background-color: white }
+.date { color: #235831; font-size: 7pt; font-family: Arial, verdana, helvetica; background-color: white }
+.downloads  { color: #1a542a; font-size: 10px; font-family: arial, helvetica, sans-serif; text-decoration: none; background-color: #ccc; padding: 0px 0px 5px }
+.downloads a  { color: #1a542a; font-size: 10px; font-family: arial, helvetica, sans-serif; text-decoration: none; background-color: #ccc }
+.downloads a:hover  { color: #f8c007; font-size: 10px; font-family: arial, helvetica, sans-serif; text-decoration: underline; background-color: #ccc }
+.downloads a:link  { color: #1a542a; font-size: 10px; font-family: arial, helvetica, sans-serif; text-decoration: none; background-color: #ccc }
+.footer { color: #930; font-size: 10px; font-family: arial, helvetica, sans-serif; background-color: white }
+.footer a { color: #930; font-size: 10px; font-family: arial, helvetica, sans-serif; background-color: white }
+.footer a:hover { color: #030; font-size: 10px; font-family: arial, helvetica, sans-serif; background-color: white }
+.footer a:link { color: #930; font-size: 10px; font-family: arial, helvetica, sans-serif; background-color: white }
+.headerlink { color: #235831; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Verdana; text-decoration: none; background-color: white; padding: 5px 0px 5px 5px }
+.headerlink a { color: #235831; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Verdana; text-decoration: none; background-color: white; padding: 0px }
+.headerlink a:hover { color: #f8b10c; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Verdana; text-decoration: none; background-color: white; padding: 0px }
+.headerlink a:link { color: #235831; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Verdana; text-decoration: none; background-color: white; padding: 0px }
+.legal { color: #000; font-size: 10px; font-family: arial, helvetica, sans-serif; background-color: white }
+.legal a { color: #000; font-size: 10px; font-family: arial, helvetica, sans-serif; background-color: white }
+.legal a:hover { color: #930; font-size: 10px; font-family: arial, helvetica, sans-serif; background-color: white }
+.legal a:link { color: #000; font-size: 10px; font-family: arial, helvetica, sans-serif; background-color: white }
+.mainbody { color: white; font-size: 10pt; font-family: verdana, helvetica, Arial; background-color: white }
+.navchannels  { color: #000080; font-weight: bold; font-size: 11px; line-height: 140%; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0; padding: 5px 0 5px 5px }
+.navchannels a  { color: #000080; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0 }
+.navchannels a:hover  { color: #8b0000; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0 }
+.navchannels a:link  { color: #000080; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0 }
+.navhvplus  { color: #000080; font-weight: bold; font-size: 11px; line-height: 140%; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0; padding: 5px 0 5px 5px }
+.navhvplus a  { color: #000080; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0 }
+.navhvplus a:hover  { color: #8b0000; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0 }
+.navhvplus a:link  { color: #000080; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0 }
+.navhvpresents  { color: #000080; font-weight: bold; font-size: 11px; line-height: 140%; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0; padding: 5px 0 5px 5px }
+.navhvpresents a  { color: #000080; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0 }
+.navhvpresents a:hover  { color: #8b0000; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0 }
+.navhvpresents a:link  { color: #000080; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; background-color: #ccc; margin-right: 0 }
+ul { font-size: 10pt; line-height: 1.3em; font-family: verdana, helvetica, Arial }

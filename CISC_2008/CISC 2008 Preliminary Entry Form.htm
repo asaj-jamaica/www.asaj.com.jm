@@ -1,0 +1,574 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="keywords" content="CISC 2008, CISC Preliminary Enty From">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>CISC 2008 Preliminary Entry Submit From</title>
+</head>
+
+<body bgcolor="#99CCFF">
+
+<p align="center"><font size="4" color="#FF0000"><b>CARIBBEAN ISLAND SWIMMING 
+CHAMPIONSHIPS 2008</b></font></p>
+<p align="center"><font color="#FF0000" size="4"><b>PRELIMINARY ENTRY FORM</b></font></p>
+<p align="left">The following preliminary entry form may be completed instead of
+the form attached to the Competition Summons. The Organizing Committee will
+confirm receipt of this information by email to the Contact Person identified
+below. If you do not receive the confirmation email, please assume that your
+preliminary entries was not received by the Organizing Committee.</p>
+<hr color="#0000FF">
+<!--webbot BOT="GeneratedScript" PREVIEW=" " startspan --><script Language="JavaScript" Type="text/javascript"><!--
+function FrontPage_Form1_Validator(theForm)
+{
+
+  if (theForm.Country.selectedIndex < 0)
+  {
+    alert("Please select one of the \"Name of Country\" options.");
+    theForm.Country.focus();
+    return (false);
+  }
+
+  if (theForm.Country.selectedIndex == 0)
+  {
+    alert("The first \"Name of Country\" option is not a valid selection.  Please choose one of the other options.");
+    theForm.Country.focus();
+    return (false);
+  }
+
+  if (theForm.Street.value == "")
+  {
+    alert("Please enter a value for the \"Street or Postal Address\" field.");
+    theForm.Street.focus();
+    return (false);
+  }
+
+  if (theForm.Parish.value == "")
+  {
+    alert("Please enter a value for the \"Parish or State\" field.");
+    theForm.Parish.focus();
+    return (false);
+  }
+
+  if (theForm.CountryAddress.value == "")
+  {
+    alert("Please enter a value for the \"Country for Federations address\" field.");
+    theForm.CountryAddress.focus();
+    return (false);
+  }
+
+  if (theForm.Federationtelephone.value == "")
+  {
+    alert("Please enter a value for the \"Federations phone number\" field.");
+    theForm.Federationtelephone.focus();
+    return (false);
+  }
+
+  if (theForm.FederationFax.value == "")
+  {
+    alert("Please enter a value for the \"Federation's fax number\" field.");
+    theForm.FederationFax.focus();
+    return (false);
+  }
+
+  if (theForm.Contactpersopnname.value == "")
+  {
+    alert("Please enter a value for the \"Name of contact person\" field.");
+    theForm.Contactpersopnname.focus();
+    return (false);
+  }
+
+  if (theForm.Contactpersontelephone.value == "")
+  {
+    alert("Please enter a value for the \"Contact person's phone number\" field.");
+    theForm.Contactpersontelephone.focus();
+    return (false);
+  }
+
+  if (theForm.Contactpersonfax.value == "")
+  {
+    alert("Please enter a value for the \"Contact person's fax number\" field.");
+    theForm.Contactpersonfax.focus();
+    return (false);
+  }
+
+  if (theForm.TotalSwimmingDelegation.value == "")
+  {
+    alert("Please enter a value for the \"Total number in swimming delegation\" field.");
+    theForm.TotalSwimmingDelegation.focus();
+    return (false);
+  }
+
+  var checkOK = "0123456789-.,";
+  var checkStr = theForm.TotalSwimmingDelegation.value;
+  var allValid = true;
+  var validGroups = true;
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+    if (ch == ".")
+    {
+      allNum += ".";
+      decPoints++;
+    }
+    else if (ch == "," && decPoints != 0)
+    {
+      validGroups = false;
+      break;
+    }
+    else if (ch != ",")
+      allNum += ch;
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit characters in the \"Total number in swimming delegation\" field.");
+    theForm.TotalSwimmingDelegation.focus();
+    return (false);
+  }
+
+  if (decPoints > 1 || !validGroups)
+  {
+    alert("Please enter a valid number in the \"TotalSwimmingDelegation\" field.");
+    theForm.TotalSwimmingDelegation.focus();
+    return (false);
+  }
+
+  if (theForm.TotalSynchroSwimmers.value == "")
+  {
+    alert("Please enter a value for the \"Total number in Synchronized Swimming delegation\" field.");
+    theForm.TotalSynchroSwimmers.focus();
+    return (false);
+  }
+
+  var checkOK = "0123456789-.,";
+  var checkStr = theForm.TotalSynchroSwimmers.value;
+  var allValid = true;
+  var validGroups = true;
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+    if (ch == ".")
+    {
+      allNum += ".";
+      decPoints++;
+    }
+    else if (ch == "," && decPoints != 0)
+    {
+      validGroups = false;
+      break;
+    }
+    else if (ch != ",")
+      allNum += ch;
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit characters in the \"Total number in Synchronized Swimming delegation\" field.");
+    theForm.TotalSynchroSwimmers.focus();
+    return (false);
+  }
+
+  if (decPoints > 1 || !validGroups)
+  {
+    alert("Please enter a valid number in the \"TotalSynchroSwimmers\" field.");
+    theForm.TotalSynchroSwimmers.focus();
+    return (false);
+  }
+  return (true);
+}
+//--></script><!--webbot BOT="GeneratedScript" endspan --><form method="POST" action="../_vti_bin/shtml.exe/CISC_2008/CISC%202008%20Preliminary%20Entry%20Form.htm" onsubmit="return FrontPage_Form1_Validator(this)" language="JavaScript" name="FrontPage_Form1" webbot-action="--WEBBOT-SELF--">
+  <!--webbot bot="SaveResults" s-email-format="TEXT/PRE" s-email-address="asaj@cwjamaica.com" b-email-label-fields="TRUE" b-email-replyto-from-field="TRUE" s-email-replyto="CONFIRMATION OF CARIFTA PRELIMINARY ENTRIES" b-email-subject-from-field="TRUE" s-email-subject="CARIFTA 2003 PRELIMINARY ENTRIES" s-date-format="%A %B %d, %Y" s-builtin-fields="REMOTE_NAME Date" startspan --><input TYPE="hidden" NAME="VTI-GROUP" VALUE="0"><!--webbot bot="SaveResults" endspan i-checksum="43374" -->
+  <p align="left"><font color="#FF0000"><b>COUNTRY AND FEDERATION INFORMATION</b></font></p>
+  <p align="left">
+  <!--webbot bot="Validation" s-display-name="Name of Country" b-value-required="TRUE" b-disallow-first-item="TRUE" --><select size="1" name="Country" tabindex="1">
+    <option selected>Name of Country</option>
+    <option>Antigua and Barbuda</option>
+    <option>Aruba</option>
+    <option>Bahamas</option>
+    <option>Barbados</option>
+    <option>Bermuda</option>
+    <option>Cayman Islands</option>
+    <option>Cuba</option>
+    <option>Dominica</option>
+    <option>Dominican Republic</option>
+    <option>Grenada</option>
+    <option>Jamaica</option>
+    <option>Martinique</option>
+    <option>Netherland Antilles</option>
+    <option>Puerto Rico</option>
+    <option>St. Lucia</option>
+    <option>St. Vincent & The Grenadines</option>
+    <option>Suriname</option>
+    <option>Trinidad & Tobago</option>
+    <option>US Virgin Islands</option>
+  </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+  <p align="left"><b>FEDERATIONS POSTAL ADDRESS:&nbsp;</b>&nbsp;&nbsp;&nbsp;</p>
+  <p align="left"><b>Street or P.O. Box:</b>
+  <!--webbot bot="Validation" s-display-name="Street or Postal Address" b-value-required="TRUE" --><input type="text" name="Street" size="45" tabindex="3"></p>
+  <p align="left">
+  <b>Parish or State:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <!--webbot bot="Validation" s-display-name="Parish or State" b-value-required="TRUE" --><input type="text" name="Parish" size="45" tabindex="4"></p>
+  <p align="left"><b>Country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <!--webbot bot="Validation" s-display-name="Country for Federations address" b-value-required="TRUE" --><input type="text" name="CountryAddress" size="27" style="border-style: solid" tabindex="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  <p align="left"><b>Zip Code (If applicable): </b>&nbsp;<input type="text" name="ZipCode" size="15" tabindex="6"></p>
+  <p align="left"><b>FEDERATION PHONE NUMBER:</b>
+  <!--webbot bot="Validation" s-display-name="Federations phone number" b-value-required="TRUE" --><input type="text" name="Federationtelephone" size="15" tabindex="7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>FAX NUMBER:&nbsp;</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <!--webbot bot="Validation" s-display-name="Federation's fax number" b-value-required="TRUE" --><input type="text" name="FederationFax" size="15" tabindex="8"></p>
+  <p align="left"><b>FEDERATION EMAIL ADDRESS:</b> 
+  <input type="text" name="Federationemail" size="33" tabindex="9">
+  <font color="#FF0000">(Enter <b>NONE</b> if not N/A)</font></p>
+  <hr size="3" color="#0000FF">
+  <p align="left"><font color="#FF0000"><b>CONTACT PERSON INFORMATION</b></font></p>
+  <p align="left"><b>NAME OF CONTACT PERSON:</b>
+  <!--webbot bot="Validation" s-display-name="Name of contact person" b-value-required="TRUE" --><input type="text" name="Contactpersopnname" size="45" style="font-weight: bold" tabindex="10"></p>
+  <p align="left"><b>CONTACT PERSON</b><b> PHONE NUMBER:</b>
+  <!--webbot bot="Validation" s-display-name="Contact person's phone number" b-value-required="TRUE" --><input type="text" name="Contactpersontelephone" size="15" tabindex="11">&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>FAX NUMBER:&nbsp;</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <!--webbot bot="Validation" s-display-name="Contact person's fax number" b-value-required="TRUE" --><input type="text" name="Contactpersonfax" size="15" tabindex="12"></p>
+  <p align="left"><b>CONTACT PERSON </b><b>EMAIL ADDRESS:</b> 
+  <input type="text" name="Contactpersonemail" size="30" value="Email Address" tabindex="13"><font color="#FF0000"> 
+  (Enter <b>NONE</b> if not N/A)</font></p>
+  <hr size="3" color="#0000FF">
+  <p align="left"><b>OUR DELEGATION WILL COMPRISE:</b></p>
+  <p align="left"><font color="#FF0000"><b>SWIMMING</b></font><font color="#008080">:&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+  <p align="left"><b>11-12 Female:</b><font color="#008080">&nbsp;&nbsp; 
+  <select size="1" name="SwimmingFemale1112" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+    <option selected>NONE</option>
+  </select>&nbsp;&nbsp; </font><b>13-14 Female:</b><font color="#008080"> 
+  <select size="1" name="SwimmingFemale1314" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+    <option selected>NONE</option>
+  </select>&nbsp;&nbsp;&nbsp;&nbsp; </font><b>15-17 Female:</b><font color="#008080">
+  <select size="1" name="SwimmingFemale1517" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+    <option selected>NONE</option>
+  </select></font><b>&nbsp;&nbsp;&nbsp;&nbsp; 18 &amp; Over Female:</b><font color="#008080">
+  <select size="1" name="SwimmingFemale18Over" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+    <option selected>NONE</option>
+  </select></font></p>
+  <p align="left"><b>11-12 Male:</b><font color="#008080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <select size="1" name="SwimmingMale1112" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+    <option selected>NONE</option>
+  </select>&nbsp;&nbsp;&nbsp; </font><b>13-14 Male:</b><font color="#008080">&nbsp;&nbsp;&nbsp;
+  <select size="1" name="SwimmingMale1314" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+    <option selected>NONE</option>
+  </select>&nbsp;&nbsp;&nbsp;&nbsp; </font><b>15-17 Male:</b><font color="#008080">&nbsp;&nbsp;&nbsp;
+  <select size="1" name="SwimmingMale1517" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+    <option selected>NONE</option>
+  </select></font><b>&nbsp;&nbsp;&nbsp;&nbsp; 18 &amp; Over Male:</b><font color="#008080">&nbsp;&nbsp;&nbsp;
+  <select size="1" name="SwimmingMale18Over" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+    <option selected>NONE</option>
+  </select></font></p>
+  <p align="left"><b>Swim Team Officials:<font color="#008080"> </font></b><font color="#008080">
+  <select size="1" name="SwimmingOfficials" tabindex="20">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+	<option>6</option>
+	<option>7</option>
+    <option selected>NONE</option>
+  </select>&nbsp;&nbsp; </font><b>Translator:</b><font color="#008080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <select size="1" name="Translator" tabindex="21">
+    <option>1</option>
+    <option selected>NONE</option>
+  </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></p>
+	<p align="left"><b>Total in Swimming
+  Delegation:</b><font color="#008080">
+  	<!--webbot bot="Validation" s-display-name="Total number in swimming delegation" s-data-type="Number" s-number-separators=",." b-value-required="TRUE" --><input type="text" name="TotalSwimmingDelegation" size="5" tabindex="22"></font></p>
+  <p align="left"><font color="#FF0000"><b>SYNCHRONIZED SWIMMING</b></font></p>
+  <p align="left"><b>12 &amp; Under Solos:</b> <font color="#008080">
+  <select size="1" name="SynchroSolos12" tabindex="23">
+    <option>1</option>
+    <option>2</option>
+    <option selected>NONE</option>
+  </select>&nbsp; </font><b>12 &amp; Under Duets:</b><font color="#008080"> 
+  <select size="1" name="SynchroDuets12" tabindex="24">
+    <option>1</option>
+    <option>2</option>
+    <option selected>NONE</option>
+  </select>&nbsp;&nbsp; </font><b>12 &amp; Under Team: </b><font color="#008080">
+  <select size="1" name="SynchroTeam12" tabindex="25">
+    <option>1</option>
+    <option selected>NONE</option>
+  </select></font></p>
+  <p align="left"><b>13-15 Solos: 
+  <select size="1" name="SynchroSolos1315" tabindex="26">
+    <option>1</option>
+    <option>2</option>
+    <option selected>NONE</option>
+  </select>&nbsp; 13-15 Duets: 
+  <select size="1" name="SynchroDuets1315" tabindex="27">
+    <option>1</option>
+    <option>2</option>
+    <option selected>NONE</option>
+  </select>&nbsp;&nbsp; 13-15 Team: 
+  <select size="1" name="SynchroTeam1315" tabindex="28">
+    <option>1</option>
+    <option selected>NONE</option>
+  </select></b></p>
+  <p align="left"><b>16-18 Solos: 
+  <select size="1" name="SynchroSolos1618" tabindex="29">
+    <option>1</option>
+    <option>2</option>
+    <option selected>NONE</option>
+  </select>&nbsp; 16-18 Duets: 
+  <select size="1" name="SynchroDuets1618" tabindex="30">
+    <option>1</option>
+    <option>2</option>
+    <option selected>NONE</option>
+  </select>&nbsp;&nbsp; 16-18 Team: 
+  <select size="1" name="SynchroTeam1618" tabindex="31">
+    <option>1</option>
+    <option selected>NONE</option>
+  </select></b></p>
+	<p align="left"><b>19-21 Solos: 
+  <select size="1" name="SynchroSolos1921" tabindex="29">
+    <option>1</option>
+    <option>2</option>
+    <option selected>NONE</option>
+  </select>&nbsp; 19-21 Duets: 
+  <select size="1" name="SynchroDuets1921" tabindex="30">
+    <option>1</option>
+    <option>2</option>
+    <option selected>NONE</option>
+  </select>&nbsp;&nbsp; 19-21 Team: 
+  <select size="1" name="SynchroTeam1921" tabindex="31">
+    <option>1</option>
+    <option selected>NONE</option>
+  </select></b></p>
+  <p align="left"><b>Number of Synchronized Swimming Team Officials: 
+  <select size="1" name="Synchroteamofficials" tabindex="32">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+	<option>4</option>
+    <option>5</option>
+	<option>6</option>
+    <option selected>NONE</option>
+  </select></b></p>
+  <p align="left"><b>Total Number in Synchronized Swimming SWIMMERS in Delegation:
+	<!--webbot bot="Validation" s-display-name="Total number in Synchronized Swimming delegation" s-data-type="Number" s-number-separators=",." b-value-required="TRUE" -->
+	<input type="text" name="TotalSynchroSwimmers" size="5" tabindex="33"></b></p>
+  <p align="left"><font color="#FF0000"><b>WATER POLO</b></font></p>
+  <p align="left"><b>15 &amp; Under FEMALE:</b> <font color="#008080"> 
+  <select size="1" name="Waterpolofemale15under" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+	<option>13</option>
+    <option selected>NONE</option>
+  </select>&nbsp; </font><b>15 &amp; Under MALE:</b><font color="#008080"> 
+  <select size="1" name="waterpolomale15Under" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+	<option>13</option>
+    <option selected>NONE</option>
+  </select>&nbsp;&nbsp;</font></p>
+  <p align="left"><b>17 &amp; Under FEMALE: </b><font color="#008080"> 
+  <select size="1" name="Waterpolofemale17under" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+	<option>13</option>
+    <option selected>NONE</option>
+  </select></font><b>&nbsp; 17 &amp; Under MALE: </b><font color="#008080"> 
+  <select size="1" name="waterpolomale17Under" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+	<option>13</option>
+    <option selected>NONE</option>
+  </select></font><b>&nbsp;&nbsp;</b></p>
+	<p align="left"><b>18 &amp; Over FEMALE: </b><font color="#008080"> 
+  <select size="1" name="Waterpolofemale18Over" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+	<option>13</option>
+    <option selected>NONE</option>
+  </select></font><b>&nbsp; 18 &amp; Over MALE: </b><font color="#008080"> 
+  <select size="1" name="waterpolomale18Over" tabindex="14">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+	<option>9</option>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+	<option>13</option>
+    <option selected>NONE</option>
+  </select></font><b>&nbsp;&nbsp;</b></p>
+	<p align="left">&nbsp;</p>
+  <p align="left"><font color="#008080">&nbsp;</font><b><span style="text-transform: uppercase"><font color="#FF0000">Media</font></span>:</b><font color="#008080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <select size="1" name="Media" tabindex="21">
+    <option>1</option>
+    <option selected>NONE</option>
+  </select></font></p>
+  <hr color="#0000FF">
+  <p align="left">Additional comments:&nbsp;
+  <textarea rows="4" name="Comments" cols="42" tabindex="38"></textarea></p>
+  <p align="left">When you select SUBMIT, your CISC 2008 Preliminary Entries 
+  will be sent to the ASAJ Office. It is important that you include your email 
+  address on this page so that the Organizing Committee can confirm receipt. 
+  <input type="submit" value="Submit" name="Submit" tabindex="39">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="reset" value="Reset" name="Reset" tabindex="40"></p>
+</form>
+<p align="left">&nbsp; </p>
+
+</body>
+
+</html>

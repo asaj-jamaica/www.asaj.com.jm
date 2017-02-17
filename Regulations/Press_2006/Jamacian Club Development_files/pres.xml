@@ -1,0 +1,81 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" gridspacingx="49152" gridspacingy="49152">
+  <p:master id="4" slidesn="1C00D99,7FE49CA0" type="main" href="master04.htm"
+   xmlhref="master04.xml" template="Ripple" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#00254a,#ffffff,#2b2b85,#c0c0c0,#2e2e8e,#0066cc,#99ccff,#8f8fb5"/>
+    <p:colorscheme
+     colors="#466886,#ffffff,#3b4b5d,#ccecff,#58718c,#6d9d97,#99ccff,#a97cf2"/>
+    <p:colorscheme
+     colors="#0068ae,#ffffff,#008ae8,#ccecff,#0088e4,#009999,#99ff99,#afe1ff"/>
+    <p:colorscheme
+     colors="#666699,#ffffff,#9b69ff,#d9d9ff,#9966ff,#00ffff,#5fafff,#003399"/>
+    <p:colorscheme
+     colors="#006666,#ffffff,#008080,#ffffcc,#008080,#0099ff,#1ace9f,#a5b5cd"/>
+    <p:colorscheme
+     colors="#a3bba9,#ffffff,#cdd9d1,#007d80,#cbd7ce,#9ca8a4,#009900,#009999"/>
+    <p:colorscheme
+     colors="#525040,#dcdad0,#686b5d,#d3d2a6,#686b5d,#5d8770,#85b7a9,#b89362"/>
+    <p:colorscheme
+     colors="#eaeaea,#000000,#b2b2b2,#000000,#ffffff,#a4bcc4,#0066ff,#00cc66"/>
+    <p:colorscheme
+     colors="#d7d1b9,#000000,#b1a887,#b39257,#e6e3d4,#a2a4ac,#666633,#9c9800"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="5" slidesn="1C00D99,7FE49CA0" type="title" href="master05.htm"
+   xmlhref="master05.xml" layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:slide id="1" slidesn="0,0" href="slide0001.htm" masterhref="master05.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle"/>
+  <p:slide id="2" slidesn="0,0" href="slide0002.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="3" slidesn="0,0" href="slide0003.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="4" slidesn="0,0" href="slide0004.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="5" slidesn="0,0" href="slide0005.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="6" slidesn="0,0" href="slide0006.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="8" slidesn="0,0" href="slide0008.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="7" slidesn="0,0" href="slide0007.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="12" slidesn="0,0" href="slide0012.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="13" slidesn="0,0" href="slide0013.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="9" slidesn="0,0" href="slide0009.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="10" slidesn="0,0" href="slide0010.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="11" slidesn="0,0" href="slide0011.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="16" slidesn="0,0" href="slide0016.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="17" slidesn="0,0" href="slide0017.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="15" slidesn="0,0" href="slide0015.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="18" slidesn="0,0" href="slide0018.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="19" slidesn="0,0" href="slide0019.htm" layout="title_body"
+   slots="title,body"/>
+  <p:viewstate type="slideView" restoredleft="319" manualadjustleft="t"/>
+  <p:tag name="___PPT2001" type="binary" datasize="68" dataoffset="0"/>
+  <p:kinsoku language="Japanese" level="levelOne"/>
+  <p:font name="Times" charset="0" type="4"/>
+  <p:font name="Arial" charset="0" type="4"/>
+  <p:font name="Times New Roman" charset="0" type="4"/>
+  <p:font name="Wingdings" charset="2" type="4" family="2"/>
+  <p:headersfooters formatid="0" noheader="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="21508"/>
+</xml>
